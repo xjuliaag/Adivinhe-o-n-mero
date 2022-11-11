@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Red+Hat+Mono:wght@300;400&display=swap" rel="stylesheet">
+
+    <title>Advinhe o meu número</title>
+  </head>
+
+  <body>
+    <div class="corpo">
+      <h1 class="title">
+        <span class="title-word title-1">ADIVINHE</span>
+        <span class="title-word title-2">O</span>
+        <span class="title-word title-3">NÚMERO</span>
+      </h1>
+      <h2>INSTRUÇÕES</h2>
+      <div class="regras">
+        <p>&bull; Chute um número entre 1 e 100</p>
+        <p>&bull; Veja se o seu palpite foi alto ou baixo</p>
+        <p>&bull; Diremos quantas tentativas você fez</p>
+        <p>&bull; Você possui 10 chances</p>
+      </div>
+
+      <div class="form">
+        <label for="campoPalpite">Digite seu palpite: </label><input type="text" id="campoPalpite" class="campoPalpite">
+        <input type="submit" value="Enviar" class="envioPalpite">
+      </div>
+    </div>
+
+<div class="resultadoParas">
+  <p class="palpites"></p>
+  <p class="ultimoResultado"></p>
+  <p class="baixoOuAlto"></p>
+</div>
+
+</body>
+</html>

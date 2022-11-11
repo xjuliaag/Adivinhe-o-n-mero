@@ -1,0 +1,134 @@
+html {
+    font-family: sans-serif;
+}
+body {
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 25px auto;
+    padding: 25px;
+    background-color: #FFE6E6;
+    border-style: double;
+    border-width: 5px;
+    border-color: #6155A6;
+    box-shadow: 5px 5px 20px #FFABE1;
+
+}
+h1 {
+    text-align: center;  
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+}
+.title-word {
+    animation: color-animation 4s linear infinite;
+}
+  
+.title-1 {
+    --color-1: #FFABE1;
+    --color-2: #A685E2;
+    --color-3: #6155A6;
+}
+  
+.title-2 {
+    --color-1: #6155A6;
+    --color-2: #FFABE1;
+    --color-3: #A685E2;
+}
+  
+.title-3 {
+    --color-1: #A685E2;
+    --color-2: #6155A6;
+    --color-3: #FFABE1;
+}
+  
+@keyframes color-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+}
+h2 {
+    text-align: center;
+    color: #573391;
+    font-family: 'Red Hat Mono', monospace;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.regras {
+    color: #573391;
+    font-family: 'Red Hat Mono', monospace;
+    font-weight: bolder;
+    margin: 25px;
+    padding-top: 13px;
+}
+.lastResult {
+    color: white;
+    padding: 3px;
+}
+.form {
+    color: #573391;
+    font-family: 'Red Hat Mono', monospace;
+    font-weight: bolder;
+    margin: 25px;
+}
+.envioPalpite {
+    background-color: #FDEBF7;
+    border: solid;
+    color: #573391;
+    font-family: 'Red Hat Mono', monospace;
+    text-align: center;
+}
+.envioPalpite:hover {
+    font-size: 110%;
+    transition: 0.5s;
+    color: #6155A6;
+}
+
+.palpites {
+    color: #573391;
+    font-family: 'Red Hat Mono', monospace;
+    font-weight: bolder;
+    text-decoration: underline;
+    margin: 25px;
+}
+
+.ultimoResultado {
+    width: 50%;
+    text-align: center;
+    font-family: 'Red Hat Mono', monospace;
+    font-weight: bolder;
+    color: #573391;
+}
+
+p.baixoOuAlto {
+    color: #573391;
+    font-family: 'Red Hat Mono', monospace;
+    font-weight: bolder;
+    margin: 25px;
+    text-decoration: underline;
+}
+
+p.ultimoResultado {
+    margin: 25px;
+    color: white;
+}
+
+button {
+    background-color: #FDEBF7;
+    border: solid;
+    color: #573391;
+    font-family: 'Red Hat Mono', monospace;
+    text-align: center;
+    margin-left: 25px;
+}
+
+button:hover {
+    font-size: 110%;
+    transition: 0.5s;
+    color: #6155A6;
+}
+
